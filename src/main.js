@@ -1,3 +1,6 @@
+import { initHeader } from './components/header.js';
+import { initFooter } from './components/footer.js';
+
 /* ============================================
    PARTICLES ENGINE — NoPing Download Page
    Custom canvas-based particle system
@@ -288,3 +291,8 @@
     });
   });
 })();
+
+window.addEventListener('DOMContentLoaded', () => {
+  initHeader('#global-header');
+  initFooter('#global-footer');
+});
