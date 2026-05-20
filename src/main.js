@@ -1,3 +1,8 @@
+window.addEventListener('DOMContentLoaded', () => {
+  initHeader('#global-header');
+  initFooter('#global-footer');
+});
+
 /* ============================================
    PARTICLES ENGINE — NoPing Download Page
    Custom canvas-based particle system
