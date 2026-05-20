@@ -1,5 +1,7 @@
-import { initHeader } from './components/header.js';
-import { initFooter } from './components/footer.js';
+window.addEventListener('DOMContentLoaded', () => {
+  initHeader('#global-header');
+  initFooter('#global-footer');
+});
 
 /* ============================================
    PARTICLES ENGINE — NoPing Download Page
@@ -291,8 +293,3 @@ import { initFooter } from './components/footer.js';
     });
   });
 })();
-
-window.addEventListener('DOMContentLoaded', () => {
-  initHeader('#global-header');
-  initFooter('#global-footer');
-});

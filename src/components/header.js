@@ -1,4 +1,4 @@
-export function initHeader(selector) {
+function initHeader(selector) {
   const el = document.querySelector(selector);
   if (!el) return;
   

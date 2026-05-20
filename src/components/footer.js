@@ -1,4 +1,4 @@
-export function initFooter(selector) {
+function initFooter(selector) {
   const el = document.querySelector(selector);
   if (!el) return;
   
